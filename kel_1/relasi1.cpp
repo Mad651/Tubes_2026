@@ -18,4 +18,5 @@ void insert_last_rel1(List_rel1 &L, adr_rel1 P) {
 }
 
 void delete_first_rel1(List_rel1 &L, adr_rel1 &P) {
-  
+  if (P != nullptr) {
+
