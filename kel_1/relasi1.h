@@ -13,6 +13,8 @@ struct elm_rel1 {
 };
 
 struct List_rel1 {
+    adr_rel1 first;
+    adr_rel1 last;
 };
 
 void create_list_rel1(List_rel1 &L);
